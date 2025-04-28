@@ -1,0 +1,74 @@
+ body {
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c3e50;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            margin: 30px 0 10px;
+            font-size: 2.2rem;
+            font-weight: 600;
+        }
+
+        .title {
+            color: #0d1a26; 
+        }
+
+        .home {
+            color: #1a5276; 
+        }
+
+        .admission {
+            color: #117864; 
+        }
+
+        .academics {
+            color: #884ea0; 
+        }
+
+        .placement {
+            color: #b03a2e; 
+        }
+
+        .facilities {
+            color: #2e4053; 
+        }
+
+        .college-name {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+
+        a {
+            color: #1c2833;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #2980b9;
+        }
+
+        mark {
+            background-color: #d6eaf8;
+            padding: 6px 12px;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }

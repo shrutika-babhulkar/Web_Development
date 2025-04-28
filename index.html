@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Development Topics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: radial-gradient(circle at top left, #1c1c1c, #0f0f0f);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      overflow-x: hidden;
+    }
+
+    header {
+      margin-top: 40px;
+      text-align: center;
+      animation: fadeDown 1s ease-out;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      background: linear-gradient(to right, #0ff, #00f6ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 2px;
+    }
+
+    main {
+      width: 100%;
+      max-width: 1000px;
+      text-align: center;
+      margin-top: 40px;
+      animation: fadeUp 1.2s ease-in;
+    }
+
+    main h2 {
+      font-size: 1.6rem;
+      color: #ccc;
+    }
+
+    main p {
+      font-size: 1.1rem;
+      margin: 30px 0;
+      color: #aaa;
+    }
+
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .btn-container a {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #00fff2;
+      padding: 15px 30px;
+      color: #00fff2;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 1rem;
+      position: relative;
+      transition: all 0.4s ease;
+      box-shadow: 0 0 12px #00fff2;
+    }
+
+    .btn-container a::before {
+      content: '';
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      right: -2px;
+      bottom: -2px;
+      border-radius: 14px;
+      background: linear-gradient(45deg, #0ff, #00f6ff, #0ff);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      z-index: -1;
+    }
+
+    .btn-container a:hover::before {
+      opacity: 1;
+      filter: blur(10px);
+    }
+
+    .btn-container a:hover {
+      color: #111;
+      background-color: #00fff2;
+      box-shadow: 0 0 18px #00fff2;
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      margin-top: auto;
+      color: #888;
+      font-size: 0.9rem;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      .btn-container a {
+        width: 80%;
+        font-size: 1rem;
+        padding: 14px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Web Development Topics</h1>
+  </header>
+
+  <main>
+    <h2>Welcome Shrutika Avinash Babhulkar</h2>
+    <h2>Roll No: 122</h2>
+    <p>Choose a category below to access assignments:</p>
+    <div class="btn-container">
+      <a href="html.html">HTML</a>
+      <a href="CSS.html" target="_blank">CSS</a>
+      <a href="XML.html" target="_blank">XML</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Shrutika Babhulkar | All rights reserved</p>
+  </footer>
+
+</body>
+</html>

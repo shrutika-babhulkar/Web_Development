@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Registration</title>
+  <style> .roll {
+    text-align: center;
+    font-size: 18px;
+  }</style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="roll"><b>Roll No:</b> 122</div>
+    <h2>Employee Registration Form</h2>
+    <form action="#" method="post">
+
+      <label for="empid">Employee ID</label><br>
+      <input type="text" id="empid" name="empid" required><br><br>
+
+      <label for="fullname">Full Name</label><br>
+      <input type="text" id="fullname" name="fullname" required><br><br>
+
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="dob">Date of Birth</label><br>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <label for="gender">Gender</label><br>
+      <label><input type="radio" name="gender" value="Male"> Male</label>
+      <label><input type="radio" name="gender" value="Female"> Female</label>
+      <label><input type="radio" name="gender" value="Other"> Other</label><br><br>
+
+      <label for="contact">Contact Number</label><br>
+      <input type="text" id="contact" name="contact" required><br><br>
+
+      <label for="department">Department</label><br>
+      <select id="department" name="department" required>
+        <option value="">-- Select Department --</option>
+        <option value="HR">Human Resources</option>
+        <option value="Finance">Finance</option>
+        <option value="IT">IT</option>
+        <option value="Sales">Sales</option>
+        <option value="Marketing">Marketing</option>
+      </select><br><br>
+
+      <label for="designation">Designation</label><br>
+      <input type="text" id="designation" name="designation" required><br><br>
+
+      <label for="address">Address</label><br>
+      <textarea id="address" name="address" rows="3" required></textarea><br><br>
+
+      <label for="password">Password</label><br>
+      <input type="password" id="password" name="password" required><br><br>
+
+      <input type="submit" value="Register"><br><br>
+    </form>
+  </div>
+
+</body>
+</html>

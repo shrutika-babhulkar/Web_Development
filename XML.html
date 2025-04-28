@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Development Assignments</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: radial-gradient(circle at top left, #222, #0f0f0f);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      overflow-x: hidden;
+    }
+
+    header {
+      margin-top: 40px;
+      text-align: center;
+      animation: fadeDown 1s ease-out;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      background: linear-gradient(to right, #0ff, #00f6ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 2px;
+    }
+
+    main {
+      width: 100%;
+      max-width: 800px;
+      text-align: center;
+      margin-top: 40px;
+      animation: fadeUp 1.2s ease-in;
+    }
+
+    main h2 {
+      font-size: 1.5rem;
+      margin: 10px 0;
+      color: #ccc;
+    }
+
+    main p {
+      font-size: 1.1rem;
+      margin: 30px 0;
+      color: #aaa;
+    }
+
+    nav {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      justify-items: center;
+      margin-bottom: 40px;
+    }
+
+    nav a {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #00fff2;
+      padding: 15px 30px;
+      color: #00fff2;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 1rem;
+      position: relative;
+      transition: all 0.4s ease;
+      box-shadow: 0 0 12px #00fff2;
+      width: 100%;
+      max-width: 250px;
+      text-align: center;
+    }
+
+    nav a::before {
+      content: '';
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      right: -2px;
+      bottom: -2px;
+      border-radius: 12px;
+      background: linear-gradient(45deg, #0ff, #00f6ff, #0ff);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      z-index: -1;
+    }
+
+    nav a:hover::before {
+      opacity: 1;
+      filter: blur(10px);
+    }
+
+    nav a:hover {
+      color: #111;
+      background-color: #00fff2;
+      box-shadow: 0 0 18px #00fff2;
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      margin-top: auto;
+      color: #888;
+      font-size: 0.9rem;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        grid-template-columns: 1fr;
+      }
+
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Web Development Assignments</h1>
+  </header>
+
+  <main>
+    <h2>Name: Shrutika Avinash Babhulkar</h2>
+    <h2>Roll No: 122</h2>
+    <p>Click on the assignments to explore:</p>
+    <nav>
+      <a href="assignment11.xml" target="_blank">Assignment 11</a>
+      <a href="assignment_12_output.htm" target="_blank">Assignment 12</a>
+      <a href="assignment_13_output.htm" target="_blank"> Assignment 13</a>
+
+
+    </nav>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Shrutika Babhulkar | All rights reserved</p>
+  </footer>
+
+</body>
+</html>

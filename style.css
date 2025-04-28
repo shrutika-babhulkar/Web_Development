@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  padding: 20px;
+  color: #333; /* Light gray text for general content */
+}
+
+.resume {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fff; /* White background for the resume */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc; /* Light border around the resume */
+}
+
+.left-column {
+  background-color: #333; /* Dark gray for left column */
+  color: #fff; /* White text for the left column */
+  width: 30%;
+  padding: 30px;
+  text-align: center;
+}
+
+.left-column .profile-pic {
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.left-column h2 {
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: #fff; /* White text for name */
+}
+
+.left-column .title {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  color: #ccc; /* Light gray for title */
+}
+
+.contact-info,
+.skills {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.contact-info h3,
+.skills h3 {
+  border-bottom: 1px solid #777;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #fff; /* White for contact and skills headers */
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #ccc; /* Light gray for skills list items */
+}
+
+.right-column {
+  width: 70%;
+  padding: 30px;
+  background-color: #fff; /* White background for right column */
+}
+
+.right-column section {
+  margin-bottom: 30px;
+}
+
+.right-column h2 {
+  color: #000; /* Black text for section titles in right column */
+  font-size: 24px;
+  border-bottom: 2px solid #000; /* Black border for section titles */
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.right-column h3 {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #000; /* Black text for sub-headings */
+}
+
+.date {
+  font-size: 14px;
+  color: #777; /* Light gray for dates */
+}
+
+.education h3 {
+  margin-top: 30px;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  color: #000; /* Black text for education section */
+}
+
+.education-entry {
+  margin-bottom: 15px;
+}
+
+.education-entry h4 {
+  font-size: 16px;
+  color: #000; /* Black text for education degree titles */
+  margin-bottom: 5px;
+}
+
+.education-entry p,
+.education-entry .date {
+  font-size: 14px;
+  color: #777; /* Light gray for education details */
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #333; /* Darker gray for general list items */
+}
+
+h2, h3 {
+  font-weight: normal;
+}

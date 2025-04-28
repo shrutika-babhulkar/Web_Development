@@ -1,0 +1,36 @@
+<?xml version = "1.0"?> 
+<?xml-stylesheet type = "text/xsl" href = "assignment_13.xsl"?> 
+<class> 
+   <student rollno = "101"> 
+      <firstname>Sharvari</firstname> 
+      <lastname>Chougale</lastname> 
+      <marks>94</marks> 
+   </student> 
+   <student rollno = "102"> 
+      <firstname>Shrutika</firstname> 
+      <lastname>Babhulkar</lastname> 
+      <marks>92</marks> 
+   </student> 
+   <student rollno = "103"> 
+      <firstname>Suyash</firstname> 
+      <lastname>Dabholkar</lastname> 
+      <marks>95</marks> 
+   </student> 
+ <student rollno = "104"> 
+      <firstname>Samarth</firstname> 
+      <lastname>Baraskar</lastname> 
+      <marks>76</marks> 
+   </student> 
+    <student rollno = "105"> 
+      <firstname>Vaishnavi</firstname> 
+      <lastname>Bongale</lastname> 
+      <marks>87</marks> 
+   </student> 
+
+    <student rollno = "105"> 
+      <firstname>Harsh </firstname> 
+      <lastname>Babhulkar</lastname> 
+      <marks>85</marks> 
+   </student> 
+
+</class>

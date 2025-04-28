@@ -1,0 +1,18 @@
+
+Companies { 
+	color: rgb(15, 14, 14); 
+	background-color :  rgb(194, 243, 244);          
+	width: 100%; 
+} 
+heading { 
+	color: rgb(28, 30, 30); 
+	font-size : 40px; 
+	background-color :  rgb(26, 195, 247); 
+} 
+heading, Name, Location, FoIndustryod, Speciality { 
+	display : flex; 
+} 
+Name { 
+	font-size : 25px; 
+	font-weight : bold; 
+} 
